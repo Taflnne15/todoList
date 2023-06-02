@@ -5,12 +5,11 @@ box-sizing: border-box;
 }
 .main-container{
 
-margin-left: 50%;
-margin-top: 40%;
- border: 2px solid black;
- border-radius: 10px;
+margin-left: 500px;
+margin-top: 300px;
+
  text-align: center;
- height: 60%;
+width: 500px;
  color: purple;
  background-color: aliceblue;
 }
@@ -20,13 +19,18 @@ h1{
 
 
 input{
-    padding: 10px;
+    padding: 20px;
+    width: 300px;
     border: 2px solid black;
     
 }
+h1{
+    text-align: center;
+    border-bottom: 4px solid white;
+}
 
 button{
-    padding: 10px;
+    padding: 20px;
 margin-right: 10px;
 color: purple;
 background-color: pink;
@@ -34,4 +38,8 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 body{
     background-color: pink;
+}
+.main-input{
+margin-top: 60px;
+    margin-left: 550px;
 }
